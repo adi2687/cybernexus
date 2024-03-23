@@ -1,0 +1,173 @@
+.logo {
+    width: 100vw;
+    height: 20%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    font-size: 350%;
+    position: absolute;
+    left: 58%;
+    top: -3%;
+    color: lightblue;
+    font-weight: bold;
+}
+.email {
+    position: absolute;
+    top: 23%;
+    left: 57%;
+    border: 2px solid gray;   
+    font-weight: bold;
+    font-size: 120%;
+    width:25%;
+    padding:20px 20px 30px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;height:45%;
+}
+
+.email>input {
+    background-color: lightblue;
+    border: none;
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.email>button {
+    width: 90%;
+    position: absolute;
+    left:5%;
+    background-color: rgb(4, 115, 152);
+    border: none;
+    color: white;
+    height: 36px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: white;
+    font-weight: bolder;
+    font-size: 120%;
+    opacity: 0.8;
+    position: absolute;
+    left: 2%;
+}
+
+.or {
+    position: absolute;
+    left:50%;
+    top:65%;
+    color: grey;
+    transform: translate(-50%,-50%);
+}
+
+.google {
+    position: absolute;
+    top: 74%;
+    left: 94%;
+    width: 100%;
+    cursor: pointer;transform: translate(-50%,-50%);
+}
+
+.google>img {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: -20%;
+    top: 12px;
+}
+
+.google>p {
+    position: absolute;
+    left: -7%;
+    top: 0%;
+    color: grey;
+    font-size: 90%;
+}
+
+.forgotyourpassword {
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    font-size: 80%;
+    font-weight: 200;
+    color: black;
+    cursor: pointer;
+    transform: translate(-50%,-50%);font-weight: bolder;
+}
+
+.newaccount {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    color: black;
+    font-size: 80%;
+    border: 2px solid grey;
+    padding: 25px 0px 25px 0px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.newaccount>a {
+    text-decoration: none;
+}
+.email>h1{
+    position: absolute;
+    left:62%;
+    top:5%;
+    width:100%;
+    font-size: 140%;
+    color:rgb(10, 105, 137);transform: translate(-50%,-50%);
+}
+.laptop{
+    position: absolute;
+    top:23%;
+    left:5%;
+    width:40%;
+    height: 60%;
+}
+.inthelaptop{
+    width:24.6%;
+    height:26.9%;
+    position: absolute;
+    top:29.7%;
+    left:12.5%;
+    /* border: 0.1px solid red; */
+}
+.change{
+    position: absolute;left:10%;top:40%;
+}
+.foot{
+    position: absolute;
+    top:90%;
+    left:50%;
+    display:flex;
+    gap:5%;
+    color:rgb(4, 95, 125);
+transform: translate(-50%,-50%);font-size: 110%;font-weight:800;cursor: pointer;
+}
+.info{
+    position:absolute;
+    top:90%;
+    left:40%;
+    font-weight: 800;
+    color:rgb(4, 94, 124);
+    font-size: 120%;
+}
+.copyright{
+    position:absolute;
+    top:94%;
+    left:45%;
+    font-weight: 800;
+    color:rgb(4, 94, 124);
+    font-size: 120%;
+}
