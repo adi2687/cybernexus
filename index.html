@@ -11,23 +11,51 @@
 <body>
     <img src="header.png" class="logo">
     <p class="heading">CYBERNEXUS</p>
-    <form action="get">
-        <div class="email">
-            <h1>Welcome to CYBERNEXUS</h1><br><br>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" placeholder="Enter Your email" required><br>
-            <label for="password">Password</label><br>
-            <input type="password" id="password" placeholder="Enter your Password" required><br><br>
-            <button type="submit" id="register" class="register">Log in</button>
-            <p class="or">OR</p><br>
-            <div class="google">
-                <img src="google.png">
-                <p>Login with google</p>
-            </div>
-            <p class="forgotyourpassword">Forgotten Your Password?</p>
-            <p class="newaccount">Don't have an account? <a href="signup.html">Sign Up</a></p>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <input type="text" name="" id="" placeholder="Full Name">
+                <input type="email" name="" id="" placeholder="Mobile Number or Email address">
+                <input type="password" name="" id="" placeholder="Password">
+                <input type="text" name="" id="" placeholder="Username">
+                <p>By signing up, you agree to our Terms, Privacy Policy and Cookies Policy.</p>
+                <button>Sign Up</button>
+            </form>
         </div>
-    </form>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <img src="google.svg" alt="" class="fa-brands">
+                    <img src="facebook.svg" alt="" class="fa-brands">
+                    <img src="github.svg" alt="" class="fa-brands github">
+                    <img src="linkedin.svg" alt="" class="fa-brands linkedin">
+                </div>
+                <span>Or use your email password</span>
+                <input type="email" name="" id="" placeholder="Phone number, username or email address">
+                <input type="password" name="" id="" placeholder="Password">
+                <a href="#" class="yellow">Forgot Your password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Already have an account?</h1>
+                    <p>Explore and expand your interests and share photos,stories & reels with friends you love.....</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>We haven't met before right?</h1>
+                    <b class="intro1">WELCOME TO CYBERNEXUS</b>
+                    <!-- <p>Then you should try us!</p> -->
+                    <span class="line">Register with your personal details to use all of site features</span>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <img src="laptop.png" class="laptop">
     <img src="image4.webp"class="inthelaptop" id="inthelaptop">
     <div class="foot">
