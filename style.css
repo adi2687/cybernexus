@@ -263,32 +263,35 @@ body {
 .foot {
     position: absolute;
     top: 92%;
-    left: 48%;
+    left: 40%;
     display: flex;
-    gap: 5%;
-    color: rgb(4, 95, 125);
+    gap: 30%;
+    color: black;
     transform: translate(-50%, -50%);
-    font-size: 100%;
-    font-weight: 800;
+    font-size: 90%;
+    font-weight: 700;
     cursor: pointer;
+    font-family:serif;
 }
 
 .info {
     position: absolute;
-    top: 93%;
-    left: 36%;
+    top: 95%;
+    left: 50%;
     font-weight: 800;
-    color: rgb(4, 94, 124);
-    font-size: 120%;
+    color: black;
+    font-size: 90%;
+    transform: translate(-50%,-50%);
 }
 
 .copyright {
     position: absolute;
-    top: 96%;
-    left: 43%;
+    top: 98%;
+    left: 50%;
     font-weight: 800;
-    color: rgb(4, 94, 124);
-    font-size: 120%;
+    color: Black;
+    font-size: 100%;
+    transform: translate(-50%,-50%);
 }
 
 .toggle-panel>h1 {
